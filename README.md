@@ -57,4 +57,4 @@ It is **very important** that you place this api key into a file named "key" in 
 
 * If you change the Go code you will need to rebuild it in a linux environment, the easiest way is to install go on the raspberry pi using `sudo apt-get install golang` and then running `go build`
 
-* The photo display elements of this project were adapted from Rob O'Hara's PosterPi, the writeup and some extra tips which can be found [at his blog post](http://www.robohara.com/?p=12528#two).
+* The photo display elements of this project were adapted from Rob O'Hara's PosterPi. the writeup for this and some extra tips can be found [at his blog post](http://www.robohara.com/?p=12528#two).
