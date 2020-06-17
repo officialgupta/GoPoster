@@ -1,6 +1,6 @@
 # GoPoster
 
-An application built for the Raspberry Pi that fetches the latest movie posters and displays them. Meant to be a digital poster display.
+An application built for the Raspberry Pi that fetches the most popular movie posters and displays them. Meant to be a digital poster display.
 
 ## Installation
 
@@ -42,7 +42,7 @@ It is **very important** that you place this api key into a file named "key" in 
 * Make the project run automatically on startup
     * Change to your home directory by typing `cd ~`
     * type `sudo nano .bashrc`
-    * add a line to the end of the file that reads ./PosterPi.sh
+    * add a line to the end of the file that reads ./posterpi.sh
 
 * You must schedule the raspberry pi to fetch the latest posters. To schedule the poster to refresh *every day* type `0 0 * * * /home/pi/getposters.sh`. You can use an [alternate cron entry](https://www.raspberrypi.org/documentation/linux/usage/cron.md) for a different interval.
 

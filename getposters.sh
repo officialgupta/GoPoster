@@ -1,4 +1,4 @@
-rm /home/pi/posters/*
+rm -r posters
 
 ./pi
 
